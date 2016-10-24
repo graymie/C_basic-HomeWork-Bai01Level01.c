@@ -1,0 +1,12 @@
+#include "stdio.h"
+#include"conio.h"
+#include"math.h"
+int main()
+{
+	int a,b,c;
+	printf("nhap ngay thang nam");
+	scanf("%d%d%d",&a,&b,&c);
+	printf("\nngay %d, thang%d, nam %d",a,b,c);
+	getch();
+	}
+	

@@ -1,0 +1,11 @@
+#include "stdio.h"
+#include"conio.h"
+#include"math.h"
+int main()
+{
+	float a,b;
+	printf("nhap 2 canh");
+	scanf("%f%f",&a,&b);
+	printf("dien tich la %f, chu vi la %f",a*b,a+b+a+b);
+	getch();
+	}

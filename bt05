@@ -1,0 +1,12 @@
+#include "stdio.h"
+#include"conio.h"
+#include"math.h"
+int main()
+{
+	float r,h;
+	printf("nhap bankinh day");
+	scanf("%f",&r);
+	printf("nhap chieu cao");
+	scanf("%f",&h);
+	printf("\n the tich la %f",3.14*r*r*h);
+	getch();}
